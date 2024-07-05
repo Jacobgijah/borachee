@@ -35,7 +35,7 @@
 }
 
 .about h2 {
-  font-size: 35px;
+  font-size: 29px;
   color: #000000;
   margin: 10px 0;
   max-width: 400px;
@@ -56,11 +56,14 @@
   .about-left {
     flex-basis: 100%;
     margin: 20px;
-    order: 2;
   }
 
   .about-right {
     flex-basis: 100%;
     margin: 20px;
+  }
+
+  .about h2 {
+    max-width: 600px;
   }
 }

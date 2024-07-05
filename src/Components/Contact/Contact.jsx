@@ -48,15 +48,15 @@ const Contact = () => {
               <img src={mail_icon} alt="" />sales@borachee.co.tz
             </a>
           </li>
-          <li><img src={phone_icon} alt="" />+255 752 485 686</li>
+          <li><img src={phone_icon} alt="" />+255 767 876 503</li>
           <li>
-            <a href="https://wa.link/w6v85i" target='_blank'>
-              <img src={whatsapp_icon} alt="" />+255 752 485 686
+            <a href="https://wa.link/ba03zv" target='_blank'>
+              <img src={whatsapp_icon} alt="" />+255 767 876 503
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/boracheetz/" target='_blank'>
-              <img src={insta_icon} alt="" /> @boracheetz
+            <a href="https://www.instagram.com/borachee_tz/" target='_blank'>
+              <img src={insta_icon} alt="" /> @borachee_tz
             </a>
           </li>
           <li><img src={location_icon} alt="" />Plot 68, Mbezi beach, Tangi bovu<br/>

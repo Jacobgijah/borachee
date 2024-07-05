@@ -12,11 +12,11 @@
 
 .hero-text {
   text-align: center;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .hero-text h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -29,19 +29,32 @@
 /* ------ MEDIA QUERY ------ */
 @media (max-width: 850px) {
   .hero-text h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 650px) {
   .hero-text h1 {
     font-size: 30px;
-    max-width: 400px;
+    max-width: 600px;
     margin: auto;
   }
 
   .hero-text p {
     font-size: 14px;
+    margin: 15px auto 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-text h1 {
+    font-size: 30px;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .hero-text p {
+    font-size: 12px;
     margin: 15px auto 30px;
   }
 }

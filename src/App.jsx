@@ -10,6 +10,7 @@ import Testimonials from './Components/Testimonials/Testimonials';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import { TailSpin } from 'react-loader-spinner';
+import Campus from './Components/Campus/Campus';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -18,7 +19,7 @@ const App = () => {
     // Simulate a delay to show the loading spinner
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the delay as needed
+    }, 3000); // Adjust the delay as needed
 
     return () => clearTimeout(timer);
   }, []);
@@ -43,10 +44,11 @@ const App = () => {
           <Navbar />
           <Hero />
           <div className="container">
+            <About />
+            {/* <Campus /> */}
             <Title subTitle="OUR PRODUCTS" title="What We Offer" />
             <Products />
-            <About />
-            <Title subTitle="PARTNERS" title="What Partners Say" />
+            <Title subTitle="OUR BRANDS" title="What Partners Say" />
             <Testimonials />
             <Title subTitle="CONTACT US" title="Get In Touch" />
             <Contact />

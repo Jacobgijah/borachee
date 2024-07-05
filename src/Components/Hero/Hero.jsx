@@ -6,13 +6,10 @@ const Hero = () => {
   return (
     <div className='hero container'>
       <div className="hero-text">
-        <h1>We ensure quality and better products for a better World</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Animi eius ab molestias hic maxime accusantium, necessitatibus in 
-          exercitationem eveniet impedit aut tenetur magnam dolores provident 
-          et nostrum perferendis itaque! Debitis.
-        </p>
+        <h1>Dedicated to continuous improvement and empowering others to achieve excellence</h1>
+        <p>We specialize in sourcing, distribution and sale of quality and affordable abrasive
+        products including grinding discs, cutt-off wheeels, sanding discs and diamond
+        blades, and power tools including angle grinders, sanding machines, and more</p>
         <button className='btn'>Explore more <img src={dark_arrow} alt='' /> </button>
       </div>
     </div>
