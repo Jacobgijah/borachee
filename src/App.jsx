@@ -45,9 +45,10 @@ const App = () => {
           <Hero />
           <div className="container">
             <About />
-            {/* <Campus /> */}
             <Title subTitle="OUR PRODUCTS" title="What We Offer" />
             <Products />
+            <Title subTitle="GALLERY" title="What We Perform" />
+            <Campus />
             <Title subTitle="OUR BRANDS" title="What Partners Say" />
             <Testimonials />
             <Title subTitle="CONTACT US" title="Get In Touch" />
