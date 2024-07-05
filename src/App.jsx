@@ -19,7 +19,7 @@ const App = () => {
     // Simulate a delay to show the loading spinner
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // Adjust the delay as needed
+    }, 2000); // Adjust the delay as needed
 
     return () => clearTimeout(timer);
   }, []);
