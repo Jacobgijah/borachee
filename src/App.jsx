@@ -5,12 +5,11 @@ import Hero from './Components/Hero/Hero';
 import Products from './Components/Products/Products';
 import Title from './Components/Title/Title';
 import About from './Components/About/About';
-// import Campus from './Components/Campus/Campus';
-import Testimonials from './Components/Testimonials/Testimonials';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import { TailSpin } from 'react-loader-spinner';
 import Campus from './Components/Campus/Campus';
+import Brands from './Components/Brands/Brands';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -49,8 +48,8 @@ const App = () => {
             <Products />
             <Title subTitle="GALLERY" title="What We Perform" />
             <Campus />
-            <Title subTitle="OUR BRANDS" title="What Partners Say" />
-            <Testimonials />
+            <Title subTitle="OUR BRANDS" title="Collaborative Environment" />
+            <Brands />
             <Title subTitle="CONTACT US" title="Get In Touch" />
             <Contact />
             <Footer />
