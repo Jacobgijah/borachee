@@ -10,15 +10,15 @@ const Brands = () => {
     <div className='brand-logos'>
       <div className='brand-logo'>
         <img src={brand_1} alt="Brand 1" />
-        <span>Brand 1</span>
+        <span>EasyFix</span>
       </div>
       <div className='brand-logo'>
         <img src={brand_2} alt="Brand 2" />
-        <span>Brand 2</span>
+        <span>EuroCut</span>
       </div>
       <div className='brand-logo'>
         <img src={brand_3} alt="Brand 3" />
-        <span>Brand 3</span>
+        <span>SALi</span>
       </div>
     </div>
   );
