@@ -6,6 +6,12 @@ import './Products.css';
 import product_1 from '../../assets/product-1.png';
 import product_2 from '../../assets/product-2.png';
 import product_3 from '../../assets/product-3.png';
+import product_4 from '../../assets/product-4.png';
+import product_5 from '../../assets/product-5.png';
+import product_6 from '../../assets/product-6.png';
+import product_7 from '../../assets/product-7.png';
+import product_8 from '../../assets/product-8.png';
+import product_9 from '../../assets/product-9.png';
 import program_icon_1 from '../../assets/program-icon-1.png';
 import program_icon_2 from '../../assets/program-icon-2.png';
 import program_icon_3 from '../../assets/program-icon-3.png';
@@ -34,7 +40,7 @@ const Programs = () => {
         <div className="program">
           <img src={product_1} alt="Product 1" />
           <div className="caption">
-            <img src={program_icon_1} alt="Program Icon 1" />
+            {/* <img src={program_icon_1} alt="Program Icon 1" /> */}
             <p>Grinding disc</p>
           </div>
         </div>
@@ -42,16 +48,63 @@ const Programs = () => {
         <div className="program">
           <img src={product_2} alt="Product 2" />
           <div className="caption">
-            <img src={program_icon_2} alt="Program Icon 2" />
-            <p>Grinding disc</p>
+            {/* <img src={program_icon_2} alt="Program Icon 2" /> */}
+            <p>Cutting disc</p>
           </div>
         </div>
 
         <div className="program">
           <img src={product_3} alt="Product 3" />
           <div className="caption">
-            <img src={program_icon_3} alt="Program Icon 3" />
-            <p>Grinding disc</p>
+            {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
+            <p>Flap disc</p>
+          </div>
+        </div>
+        
+        <div className="program">
+          <img src={product_4} alt="Product 4" />
+          <div className="caption">
+            {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
+            <p>⁠Velcro Pads</p>
+          </div>
+        </div>
+
+        <div className="program">
+          <img src={product_5} alt="Product 4" />
+          <div className="caption">
+            {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
+            <p>⁠PSA Disc</p>
+          </div>
+        </div>
+
+        <div className="program">
+          <img src={product_6} alt="Product 4" />
+          <div className="caption">
+            {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
+            <p>⁠⁠Velcro Disc</p>
+          </div>
+        </div>
+        <div className="program">
+          <img src={product_7} alt="Product 4" />
+          <div className="caption">
+            {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
+            <p>⁠⁠PSA Pads</p>
+          </div>
+        </div>
+
+        <div className="program">
+          <img src={product_8} alt="Product 4" />
+          <div className="caption">
+            {/* <img src={program_icon_2} alt="Program Icon 3" /> */}
+            <p>⁠⁠⁠Diamond Blades</p>
+          </div>
+        </div>
+
+        <div className="program">
+          <img src={product_9} alt="Product 4" />
+          <div className="caption">
+            {/* <img src={program_icon_2} alt="Program Icon 3" /> */}
+            <p>⁠⁠Non Woven Wheels</p>
           </div>
         </div>
 
