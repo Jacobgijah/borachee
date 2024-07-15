@@ -35,7 +35,7 @@ const Programs = () => {
   };
 
   return (
-    <div className='programs-slider'>
+    <div className='programs programs-slider'>
       <Slider {...settings}>
         <div className="program">
           <img src={product_1} alt="Product 1" />
