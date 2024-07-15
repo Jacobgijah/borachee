@@ -20,7 +20,7 @@ const Programs = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -41,7 +41,9 @@ const Programs = () => {
           <img src={product_1} alt="Product 1" />
           <div className="caption">
             {/* <img src={program_icon_1} alt="Program Icon 1" /> */}
-            <p>Grinding disc</p>
+            <h2>Grinding disc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
 
@@ -49,7 +51,9 @@ const Programs = () => {
           <img src={product_2} alt="Product 2" />
           <div className="caption">
             {/* <img src={program_icon_2} alt="Program Icon 2" /> */}
-            <p>Cutting disc</p>
+            <h2>Cutting disc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
 
@@ -57,7 +61,9 @@ const Programs = () => {
           <img src={product_3} alt="Product 3" />
           <div className="caption">
             {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
-            <p>Flap disc</p>
+            <h2>Flap disc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
         
@@ -65,7 +71,9 @@ const Programs = () => {
           <img src={product_4} alt="Product 4" />
           <div className="caption">
             {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
-            <p>⁠Velcro Pads</p>
+            <h2>⁠Velcro Pads</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
 
@@ -73,7 +81,9 @@ const Programs = () => {
           <img src={product_5} alt="Product 4" />
           <div className="caption">
             {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
-            <p>⁠PSA Disc</p>
+            <h2>⁠PSA Disc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
 
@@ -81,14 +91,18 @@ const Programs = () => {
           <img src={product_6} alt="Product 4" />
           <div className="caption">
             {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
-            <p>⁠⁠Velcro Disc</p>
+            <h2>⁠⁠Velcro Disc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
         <div className="program">
           <img src={product_7} alt="Product 4" />
           <div className="caption">
             {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
-            <p>⁠⁠PSA Pads</p>
+            <h2>⁠⁠PSA Pads</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
 
@@ -96,7 +110,9 @@ const Programs = () => {
           <img src={product_8} alt="Product 4" />
           <div className="caption">
             {/* <img src={program_icon_2} alt="Program Icon 3" /> */}
-            <p>⁠⁠⁠Diamond Blades</p>
+            <h2>⁠⁠⁠Diamond Blades</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
 

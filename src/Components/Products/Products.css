@@ -23,6 +23,7 @@
   right: 0;
   background: rgba(0, 0, 0, 0.3);
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
