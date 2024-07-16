@@ -11,9 +11,9 @@ const About = () => {
       
       <div className="about-right">
         <h3>ABOUT BORACHEE</h3>
-        <h2>Home of the Eurocut brand in Tanzania</h2>
+        <h2>Home of the EUROCUT brand in Tanzania</h2>
         <p>
-          We aim to empower craftsmen and technicians in Tanzania by enhancing the
+          We aim to empower craftsmen, technicians and industries in Tanzania by enhancing the
           value of their work through the application of the right skills, tools,
           and technologies.
         </p>

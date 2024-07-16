@@ -46,9 +46,9 @@ const App = () => {
             <About />
             <Title subTitle="OUR PRODUCTS" title="What We Offer" />
             <Products />
-            <Title subTitle="GALLERY" title="What We Perform" />
+            <Title subTitle="GALLERY" title="Our Team In Action" />
             <Campus />
-            <Title subTitle="OUR BRANDS" title="Collaborative Environment" />
+            <Title subTitle="OUR BRANDS" title=" Collaboration With Global Brands" />
             <Brands />
             <Title subTitle="CONTACT US" title="Get In Touch" />
             <Contact />

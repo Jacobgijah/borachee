@@ -51,7 +51,7 @@ const Programs = () => {
           <img src={product_2} alt="Product 2" />
           <div className="caption">
             {/* <img src={program_icon_2} alt="Program Icon 2" /> */}
-            <h2>Cutting disc</h2>
+            <h2>Flap disc</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
                Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
@@ -61,7 +61,7 @@ const Programs = () => {
           <img src={product_3} alt="Product 3" />
           <div className="caption">
             {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
-            <h2>Flap disc</h2>
+            <h2>Cutting disc</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
                Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
@@ -120,7 +120,9 @@ const Programs = () => {
           <img src={product_9} alt="Product 4" />
           <div className="caption">
             {/* <img src={program_icon_2} alt="Program Icon 3" /> */}
-            <p>⁠⁠Non Woven Wheels</p>
+            <h2>⁠⁠Non Woven Wheels</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
           </div>
         </div>
 
