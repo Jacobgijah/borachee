@@ -42,8 +42,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_1} alt="Program Icon 1" /> */}
             <h2>Grinding disc</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
@@ -52,8 +52,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_2} alt="Program Icon 2" /> */}
             <h2>Flap disc</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
@@ -62,8 +62,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
             <h2>Cutting disc</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
         
@@ -72,8 +72,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
             <h2>⁠Velcro Pads</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
@@ -82,8 +82,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
             <h2>⁠PSA Disc</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
@@ -92,8 +92,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
             <h2>⁠⁠Velcro Disc</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
         <div className="program">
@@ -101,8 +101,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
             <h2>⁠⁠PSA Pads</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
@@ -111,8 +111,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_2} alt="Program Icon 3" /> */}
             <h2>⁠⁠⁠Diamond Blades</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
@@ -121,8 +121,8 @@ const Programs = () => {
           <div className="caption">
             {/* <img src={program_icon_2} alt="Program Icon 3" /> */}
             <h2>⁠⁠Non Woven Wheels</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
+               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
