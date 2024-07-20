@@ -17,29 +17,42 @@
 .caption {
   border-radius: 10px;
   position: absolute;
-  top: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: #bdbebe96;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #fff;
-  cursor: pointer;
-  opacity: 0;
+  color: #000;
+  padding: 10px;
   transition: 0.4s;
 }
 
-.caption img {
-  width: 60px;
-  margin-bottom: 10px;
+.caption h2 {
+  margin: 0;
+  font-size: 1.2em;
 }
 
-.program:hover .caption {
-  opacity: 1;
+/* Custom styles for slick slider buttons */
+.slick-prev,
+.slick-next {
+  width: 30px;
+  height: 30px;
+  background-color: #bdbebe96 !important;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: white; /* Change arrow color if needed */
+  opacity: 1; /* Ensure arrows are visible */
 }
 
 /* ------ MEDIA QUERY ------ */

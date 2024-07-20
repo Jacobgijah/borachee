@@ -40,93 +40,65 @@ const Programs = () => {
         <div className="program">
           <img src={product_1} alt="Product 1" />
           <div className="caption">
-            {/* <img src={program_icon_1} alt="Program Icon 1" /> */}
             <h2>Grinding disc</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
         <div className="program">
           <img src={product_2} alt="Product 2" />
           <div className="caption">
-            {/* <img src={program_icon_2} alt="Program Icon 2" /> */}
             <h2>Flap disc</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
 
         <div className="program">
           <img src={product_3} alt="Product 3" />
           <div className="caption">
-            {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
             <h2>Cutting disc</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
           </div>
         </div>
         
         <div className="program">
           <img src={product_4} alt="Product 4" />
           <div className="caption">
-            {/* <img src={program_icon_3} alt="Program Icon 3" /> */}
-            <h2>⁠Velcro Pads</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
+            <h2>Velcro Pads</h2>
           </div>
         </div>
 
         <div className="program">
-          <img src={product_5} alt="Product 4" />
+          <img src={product_5} alt="Product 5" />
           <div className="caption">
-            {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
-            <h2>⁠PSA Disc</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
+            <h2>PSA Disc</h2>
           </div>
         </div>
 
         <div className="program">
-          <img src={product_6} alt="Product 4" />
+          <img src={product_6} alt="Product 6" />
           <div className="caption">
-            {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
-            <h2>⁠⁠Velcro Disc</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
-          </div>
-        </div>
-        <div className="program">
-          <img src={product_7} alt="Product 4" />
-          <div className="caption">
-            {/* <img src={program_icon_1} alt="Program Icon 3" /> */}
-            <h2>⁠⁠PSA Pads</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
+            <h2>Velcro Disc</h2>
           </div>
         </div>
 
         <div className="program">
-          <img src={product_8} alt="Product 4" />
+          <img src={product_7} alt="Product 7" />
           <div className="caption">
-            {/* <img src={program_icon_2} alt="Program Icon 3" /> */}
-            <h2>⁠⁠⁠Diamond Blades</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
+            <h2>PSA Pads</h2>
           </div>
         </div>
 
         <div className="program">
-          <img src={product_9} alt="Product 4" />
+          <img src={product_8} alt="Product 8" />
           <div className="caption">
-            {/* <img src={program_icon_2} alt="Program Icon 3" /> */}
-            <h2>⁠⁠Non Woven Wheels</h2>
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ad!
-               Hic ratione ut labore voluptas ab assumenda nisi facilis maxime</p> */}
+            <h2>Diamond Blades</h2>
           </div>
         </div>
 
-        {/* Add more products as needed */}
+        <div className="program">
+          <img src={product_9} alt="Product 9" />
+          <div className="caption">
+            <h2>Non Woven Wheels</h2>
+          </div>
+        </div>
       </Slider>
     </div>
   );
