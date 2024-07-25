@@ -9,32 +9,6 @@ import whatsapp_icon from '../../assets/whatsapp-ico.png'
 import white_arrow from '../../assets/white-arrow.png'
 
 const Contact = () => {
-
-  const [result, setResult] = React.useState("");
-
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
-
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
-
-    const data = await response.json();
-
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-  };
-
   return (
     <div className="contact">
       <div className="contact-col">
