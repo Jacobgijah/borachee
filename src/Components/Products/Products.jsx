@@ -40,21 +40,21 @@ const Programs = () => {
         <div className="program">
           <img src={product_1} alt="Product 1" />
           <div className="caption">
-            <h2>Grinding disc</h2>
+            <h2>Grinding Discs</h2>
           </div>
         </div>
 
         <div className="program">
           <img src={product_2} alt="Product 2" />
           <div className="caption">
-            <h2>Flap disc</h2>
+            <h2>Flap Discs</h2>
           </div>
         </div>
 
         <div className="program">
           <img src={product_3} alt="Product 3" />
           <div className="caption">
-            <h2>Cutting disc</h2>
+            <h2>Cutting Discs</h2>
           </div>
         </div>
         
@@ -68,14 +68,14 @@ const Programs = () => {
         <div className="program">
           <img src={product_5} alt="Product 5" />
           <div className="caption">
-            <h2>PSA Disc</h2>
+            <h2>PSA Discs</h2>
           </div>
         </div>
 
         <div className="program">
           <img src={product_6} alt="Product 6" />
           <div className="caption">
-            <h2>Velcro Disc</h2>
+            <h2>Velcro Discs</h2>
           </div>
         </div>
 
