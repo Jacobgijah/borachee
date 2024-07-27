@@ -35,13 +35,14 @@ contactEmail.verify((error) => {
 });
 
 app.post("/api/contact", bodyParser.urlencoded({ extended: false }), (req, res) => {
-  const { name, phone, message } = req.body;
+  const { name, email, phone, message } = req.body;
   const mail = {
     from: name,
     to: process.env.EMAIL_ADDRESS,
     subject: "Website Contact Form Submission",
     html: `
       <p>Name: ${name}</p>
+      <p>Email: ${email}</p>
       <p>Phone: ${phone}</p>
       <p>Message: ${message}</p>
     `

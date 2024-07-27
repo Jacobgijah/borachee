@@ -13,6 +13,7 @@ const Contact = () => {
 
   const formInitialDetails = {
     name: "",
+    email: "",
     phone: "",
     message: "",
   };
@@ -89,7 +90,7 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form onSubmit={handleSubmit}>
-          <label htmlFor="client name">Your Full Name</label>
+          {/* <label htmlFor="client name">Your Full Name</label> */}
           <input
             type="text"
             value={formDetails.name}
@@ -97,7 +98,15 @@ const Contact = () => {
             onChange={(e) => onFormUpdate("name", e.target.value)}
             required
           />
-          <label htmlFor="phone number">Your Phone Number</label>
+          {/* <label htmlFor="client name">Your Email Address</label> */}
+          <input
+            type="email"
+            value={formDetails.email}
+            placeholder='Enter Your Email Address'
+            onChange={(e) => onFormUpdate("email", e.target.value)}
+            required
+          />
+          {/* <label htmlFor="phone number">Your Phone Number</label> */}
           <input
             type="tel"
             value={formDetails.phone}
@@ -105,7 +114,7 @@ const Contact = () => {
             onChange={(e) => onFormUpdate("phone", e.target.value)}
             required
           />
-          <label htmlFor="message">Write your messages here</label>
+          {/* <label htmlFor="message">Write your messages here</label> */}
           <textarea
             rows="6"
             value={formDetails.message}
