@@ -19,7 +19,9 @@ app.get("/api", (req, res) => {
 });
 
 const contactEmail = nodemailer.createTransport({
-  service: 'gmail',
+  host: process.env.CPANEL_SMTP_HOST, 
+  port: process.env.CPANEL_SMTP_PORT || 465,
+  secure: true,
   auth: {
     user: process.env.EMAIL_ADDRESS,
     pass: process.env.EMAIL_PASS,
@@ -59,4 +61,8 @@ app.post("/api/contact", bodyParser.urlencoded({ extended: false }), (req, res) 
 
 app.listen(PORT, () => {
   console.log(`Server is online in port: ${PORT}`)
+  console.log("Email Address:", process.env.EMAIL_ADDRESS);
+  console.log("Email Password:", process.env.EMAIL_PASS);
+  console.log("SMTP Host:", process.env.CPANEL_SMTP_HOST);
+  console.log("SMTP Port:", process.env.CPANEL_SMTP_PORT);
 })
