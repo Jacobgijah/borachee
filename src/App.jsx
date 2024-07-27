@@ -10,11 +10,18 @@ import Footer from './Components/Footer/Footer';
 import { TailSpin } from 'react-loader-spinner';
 import Campus from './Components/Campus/Campus';
 import Brands from './Components/Brands/Brands';
+import { data } from 'jquery';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => { console.log(data)})
+
+
     // Simulate a delay to show the loading spinner
     const timer = setTimeout(() => {
       setLoading(false);
