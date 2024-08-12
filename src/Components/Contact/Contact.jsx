@@ -1,13 +1,13 @@
 import axios from "axios";
-import React, { useState } from 'react'
-import './Contact.css'
-import msg_icon from '../../assets/msg-icon.png'
-import mail_icon from '../../assets/mail-ico.png'
-import phone_icon from '../../assets/phone-ico.png'
-import location_icon from '../../assets/location-ico.png'
-import insta_icon from '../../assets/insta-ico.png'
-import whatsapp_icon from '../../assets/whatsapp-ico.png'
-import white_arrow from '../../assets/white-arrow.png'
+import React, { useState } from 'react';
+import './Contact.css';
+import msg_icon from '../../assets/msg-icon.png';
+import mail_icon from '../../assets/mail-ico.png';
+import phone_icon from '../../assets/phone-ico.png';
+import location_icon from '../../assets/location-ico.png';
+import insta_icon from '../../assets/insta-ico.png';
+import whatsapp_icon from '../../assets/whatsapp-ico.png';
+import white_arrow from '../../assets/white-arrow.png';
 
 const Contact = () => {
 
@@ -32,14 +32,16 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
+    
+    const baseUrl = process.env.NODE_ENV === 'production' ? 'https://borachee.co.tz' : 'http://localhost:3001';
     try {
-      let response = await fetch("http://localhost:3001/api/contact", {
+      let response = await fetch(`${baseUrl}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8"
         },
         body: JSON.stringify(formDetails)
-      });      
+      });
 
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -90,7 +92,6 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form onSubmit={handleSubmit}>
-          {/* <label htmlFor="client name">Your Full Name</label> */}
           <input
             type="text"
             value={formDetails.name}
@@ -98,7 +99,6 @@ const Contact = () => {
             onChange={(e) => onFormUpdate("name", e.target.value)}
             required
           />
-          {/* <label htmlFor="client name">Your Email Address</label> */}
           <input
             type="email"
             value={formDetails.email}
@@ -106,7 +106,6 @@ const Contact = () => {
             onChange={(e) => onFormUpdate("email", e.target.value)}
             required
           />
-          {/* <label htmlFor="phone number">Your Phone Number</label> */}
           <input
             type="tel"
             value={formDetails.phone}
@@ -114,7 +113,6 @@ const Contact = () => {
             onChange={(e) => onFormUpdate("phone", e.target.value)}
             required
           />
-          {/* <label htmlFor="message">Write your messages here</label> */}
           <textarea
             rows="6"
             value={formDetails.message}
@@ -143,4 +141,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;
